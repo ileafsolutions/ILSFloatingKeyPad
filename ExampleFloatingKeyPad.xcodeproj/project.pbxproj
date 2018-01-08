@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8004F5CE1FFF85CB00CDA34E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8004F5CD1FFF85CB00CDA34E /* AppDelegate.swift */; };
+		8004F5D01FFF85CB00CDA34E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8004F5CF1FFF85CB00CDA34E /* ViewController.swift */; };
+		8004F5D31FFF85CC00CDA34E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8004F5D11FFF85CC00CDA34E /* Main.storyboard */; };
+		8004F5D51FFF85CC00CDA34E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8004F5D41FFF85CC00CDA34E /* Assets.xcassets */; };
+		8004F5D81FFF85CC00CDA34E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8004F5D61FFF85CC00CDA34E /* LaunchScreen.storyboard */; };
+		801F4CE520034C4C009AB29B /* ILSFloatingKeyPad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801F4CE420034C4C009AB29B /* ILSFloatingKeyPad.framework */; };
+		801F4CE620034C4C009AB29B /* ILSFloatingKeyPad.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 801F4CE420034C4C009AB29B /* ILSFloatingKeyPad.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		801F4CE920035268009AB29B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 801F4CE820035268009AB29B /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		801F4CE720034C4C009AB29B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				801F4CE620034C4C009AB29B /* ILSFloatingKeyPad.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8004F5CA1FFF85CB00CDA34E /* ExampleFloatingKeyPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleFloatingKeyPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8004F5CD1FFF85CB00CDA34E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8004F5CF1FFF85CB00CDA34E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8004F5D21FFF85CC00CDA34E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8004F5D41FFF85CC00CDA34E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8004F5D71FFF85CC00CDA34E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8004F5D91FFF85CC00CDA34E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		801F4CE220034C3C009AB29B /* ILSFloatingKeyPad.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ILSFloatingKeyPad.framework; path = "../../Library/Developer/Xcode/DerivedData/ILSFloatingKeyPad-bhnuvdssjslppbcxlwfcxnpbvgey/Build/Products/Debug-iphoneos/ILSFloatingKeyPad.framework"; sourceTree = "<group>"; };
+		801F4CE420034C4C009AB29B /* ILSFloatingKeyPad.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ILSFloatingKeyPad.framework; sourceTree = "<group>"; };
+		801F4CE820035268009AB29B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8004F5C71FFF85CB00CDA34E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801F4CE520034C4C009AB29B /* ILSFloatingKeyPad.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8004F5C11FFF85CB00CDA34E = {
+			isa = PBXGroup;
+			children = (
+				801F4CE420034C4C009AB29B /* ILSFloatingKeyPad.framework */,
+				8004F5CC1FFF85CB00CDA34E /* ExampleFloatingKeyPad */,
+				8004F5CB1FFF85CB00CDA34E /* Products */,
+				80971D512003306A008ECC4C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8004F5CB1FFF85CB00CDA34E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8004F5CA1FFF85CB00CDA34E /* ExampleFloatingKeyPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8004F5CC1FFF85CB00CDA34E /* ExampleFloatingKeyPad */ = {
+			isa = PBXGroup;
+			children = (
+				801F4CE820035268009AB29B /* README.md */,
+				8004F5CD1FFF85CB00CDA34E /* AppDelegate.swift */,
+				8004F5CF1FFF85CB00CDA34E /* ViewController.swift */,
+				8004F5D11FFF85CC00CDA34E /* Main.storyboard */,
+				8004F5D41FFF85CC00CDA34E /* Assets.xcassets */,
+				8004F5D61FFF85CC00CDA34E /* LaunchScreen.storyboard */,
+				8004F5D91FFF85CC00CDA34E /* Info.plist */,
+			);
+			path = ExampleFloatingKeyPad;
+			sourceTree = "<group>";
+		};
+		80971D512003306A008ECC4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				801F4CE220034C3C009AB29B /* ILSFloatingKeyPad.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8004F5C91FFF85CB00CDA34E /* ExampleFloatingKeyPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8004F5DC1FFF85CC00CDA34E /* Build configuration list for PBXNativeTarget "ExampleFloatingKeyPad" */;
+			buildPhases = (
+				8004F5C61FFF85CB00CDA34E /* Sources */,
+				8004F5C71FFF85CB00CDA34E /* Frameworks */,
+				8004F5C81FFF85CB00CDA34E /* Resources */,
+				801F4CE720034C4C009AB29B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleFloatingKeyPad;
+			productName = ExampleFloatingKeyPad;
+			productReference = 8004F5CA1FFF85CB00CDA34E /* ExampleFloatingKeyPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8004F5C21FFF85CB00CDA34E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Sharon;
+				TargetAttributes = {
+					8004F5C91FFF85CB00CDA34E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Y6AK6TF2DS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8004F5C51FFF85CB00CDA34E /* Build configuration list for PBXProject "ExampleFloatingKeyPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8004F5C11FFF85CB00CDA34E;
+			productRefGroup = 8004F5CB1FFF85CB00CDA34E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8004F5C91FFF85CB00CDA34E /* ExampleFloatingKeyPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8004F5C81FFF85CB00CDA34E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8004F5D81FFF85CC00CDA34E /* LaunchScreen.storyboard in Resources */,
+				8004F5D51FFF85CC00CDA34E /* Assets.xcassets in Resources */,
+				8004F5D31FFF85CC00CDA34E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8004F5C61FFF85CB00CDA34E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801F4CE920035268009AB29B /* README.md in Sources */,
+				8004F5D01FFF85CB00CDA34E /* ViewController.swift in Sources */,
+				8004F5CE1FFF85CB00CDA34E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8004F5D11FFF85CC00CDA34E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8004F5D21FFF85CC00CDA34E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8004F5D61FFF85CC00CDA34E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8004F5D71FFF85CC00CDA34E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8004F5DA1FFF85CC00CDA34E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8004F5DB1FFF85CC00CDA34E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8004F5DD1FFF85CC00CDA34E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y6AK6TF2DS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ExampleFloatingKeyPad",
+					"$(PROJECT_DIR)/ILSFLoatingKeypadFramework",
+				);
+				INFOPLIST_FILE = ExampleFloatingKeyPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iLeaf.ExampleFloatingKeyPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8004F5DE1FFF85CC00CDA34E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y6AK6TF2DS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ExampleFloatingKeyPad",
+					"$(PROJECT_DIR)/ILSFLoatingKeypadFramework",
+				);
+				INFOPLIST_FILE = ExampleFloatingKeyPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iLeaf.ExampleFloatingKeyPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8004F5C51FFF85CB00CDA34E /* Build configuration list for PBXProject "ExampleFloatingKeyPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8004F5DA1FFF85CC00CDA34E /* Debug */,
+				8004F5DB1FFF85CC00CDA34E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8004F5DC1FFF85CC00CDA34E /* Build configuration list for PBXNativeTarget "ExampleFloatingKeyPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8004F5DD1FFF85CC00CDA34E /* Debug */,
+				8004F5DE1FFF85CC00CDA34E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8004F5C21FFF85CB00CDA34E /* Project object */;
+}

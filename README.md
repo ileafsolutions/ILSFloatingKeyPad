@@ -48,7 +48,8 @@ keyPad = ILSFloatingKeyPad(frameOfNumberPad: CGSize(width: 200, height: 200), te
 
 ```
 
-
+## Note
+Use real device to run the project since it will not work on simulator.
 
 ## Author
 

@@ -22,6 +22,7 @@ ILSFloatingKeypad is a Swift library to provide numberpad and numericpad in iPho
 
 #### Manual installation
 Download and drop the 'ILSFloatingKeypad.framework' into your Xcode project.
+Set Enable Bitcode to NO in your build settings.
 
 
 ## Usage

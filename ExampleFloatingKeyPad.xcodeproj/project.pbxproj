@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		321AC151200DD10B003E00E2 /* ILSFloatingKeyPad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321AC150200DD10B003E00E2 /* ILSFloatingKeyPad.framework */; };
+		321AC152200DD10B003E00E2 /* ILSFloatingKeyPad.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 321AC150200DD10B003E00E2 /* ILSFloatingKeyPad.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8004F5CE1FFF85CB00CDA34E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8004F5CD1FFF85CB00CDA34E /* AppDelegate.swift */; };
 		8004F5D01FFF85CB00CDA34E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8004F5CF1FFF85CB00CDA34E /* ViewController.swift */; };
 		8004F5D31FFF85CC00CDA34E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8004F5D11FFF85CC00CDA34E /* Main.storyboard */; };
 		8004F5D51FFF85CC00CDA34E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8004F5D41FFF85CC00CDA34E /* Assets.xcassets */; };
 		8004F5D81FFF85CC00CDA34E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8004F5D61FFF85CC00CDA34E /* LaunchScreen.storyboard */; };
-		801F4CE520034C4C009AB29B /* ILSFloatingKeyPad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801F4CE420034C4C009AB29B /* ILSFloatingKeyPad.framework */; };
-		801F4CE620034C4C009AB29B /* ILSFloatingKeyPad.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 801F4CE420034C4C009AB29B /* ILSFloatingKeyPad.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		801F4CE920035268009AB29B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 801F4CE820035268009AB29B /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				801F4CE620034C4C009AB29B /* ILSFloatingKeyPad.framework in Embed Frameworks */,
+				321AC152200DD10B003E00E2 /* ILSFloatingKeyPad.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,6 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		321AC150200DD10B003E00E2 /* ILSFloatingKeyPad.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ILSFloatingKeyPad.framework; sourceTree = "<group>"; };
 		8004F5CA1FFF85CB00CDA34E /* ExampleFloatingKeyPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleFloatingKeyPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8004F5CD1FFF85CB00CDA34E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8004F5CF1FFF85CB00CDA34E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +41,6 @@
 		8004F5D71FFF85CC00CDA34E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8004F5D91FFF85CC00CDA34E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		801F4CE220034C3C009AB29B /* ILSFloatingKeyPad.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ILSFloatingKeyPad.framework; path = "../../Library/Developer/Xcode/DerivedData/ILSFloatingKeyPad-bhnuvdssjslppbcxlwfcxnpbvgey/Build/Products/Debug-iphoneos/ILSFloatingKeyPad.framework"; sourceTree = "<group>"; };
-		801F4CE420034C4C009AB29B /* ILSFloatingKeyPad.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ILSFloatingKeyPad.framework; sourceTree = "<group>"; };
 		801F4CE820035268009AB29B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				801F4CE520034C4C009AB29B /* ILSFloatingKeyPad.framework in Frameworks */,
+				321AC151200DD10B003E00E2 /* ILSFloatingKeyPad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 		8004F5C11FFF85CB00CDA34E = {
 			isa = PBXGroup;
 			children = (
-				801F4CE420034C4C009AB29B /* ILSFloatingKeyPad.framework */,
+				321AC150200DD10B003E00E2 /* ILSFloatingKeyPad.framework */,
 				8004F5CC1FFF85CB00CDA34E /* ExampleFloatingKeyPad */,
 				8004F5CB1FFF85CB00CDA34E /* Products */,
 				80971D512003306A008ECC4C /* Frameworks */,

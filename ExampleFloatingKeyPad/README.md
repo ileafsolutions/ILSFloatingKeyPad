@@ -20,7 +20,8 @@ ILSFloatingKeypad is a lightweight, pure-Swift library to provide numberpad and 
 - Xcode 9.0+, Swift 4+
 
 #### Manual installation
-Download and drop the 'ILSFloatingKeypad' folder into your Xcode project.
+Download and drop the 'ILSFloatingKeypad.framework' file into your Xcode project.
+Make Sure you add the Framework by Embedded Binaries
 Set Enable Bitcode to NO in your build settings
 
 

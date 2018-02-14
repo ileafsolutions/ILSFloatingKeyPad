@@ -1,7 +1,7 @@
 # ILSFloatingKeypad
 ILSFloatingKeypad is a lightweight, pure-Swift library to provide numberpad and numericpad in iPhone as well as in iPad. It provides you a chance to customise the keypad and helps you to move the keypad with your interest.
 
-<img src="./Asset/floatingart.png?raw=true">
+<img src="./Assets/floatingart.png?raw=true">
 
 ## Features
 

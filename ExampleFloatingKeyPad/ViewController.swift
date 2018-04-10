@@ -48,7 +48,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
             keyPad = ILSFloatingKeyPad(frameOfNumberPad: CGSize(width: 200, height: 200), texField: textField, numberPadType: NumberPadType.NumericPad,ButtonbackgroundColor:UIColor.lightText,KeyPadborderColor:UIColor.black,ButtonTitleColor:UIColor.white)
         }
         else if textField == nameTextField{
-          print("normal keypad")
+   
         }
         else
         {

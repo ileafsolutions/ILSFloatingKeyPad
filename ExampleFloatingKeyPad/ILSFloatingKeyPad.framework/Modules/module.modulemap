@@ -7,4 +7,5 @@ framework module ILSFloatingKeyPad {
 
 module ILSFloatingKeyPad.Swift {
     header "ILSFloatingKeyPad-Swift.h"
+    requires objc
 }

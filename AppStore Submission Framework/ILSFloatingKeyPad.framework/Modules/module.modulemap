@@ -1,0 +1,11 @@
+framework module ILSFloatingKeyPad {
+  umbrella header "ILSFloatingKeyPad.h"
+
+  export *
+  module * { export * }
+}
+
+module ILSFloatingKeyPad.Swift {
+    header "ILSFloatingKeyPad-Swift.h"
+    requires objc
+}

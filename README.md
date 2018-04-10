@@ -23,6 +23,9 @@ ILSFloatingKeypad is a Swift library to provide numberpad and numericpad in iPho
 #### Manual installation
 Download and drop the 'ILSFloatingKeypad' folder into your Xcode project.
 
+## Note
+- Use the ILSFloatingKeypad.framework in the folder 'AppStore Submission Framework' when you are submitting your application to the appstore
+
 
 ## Usage
 
